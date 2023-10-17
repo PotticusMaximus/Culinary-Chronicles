@@ -1,21 +1,53 @@
+@font-face {
+  font-family: YSerif;
+  src: url(YoungSerif-Regular.ttf);
+}
+body {
+  background-color: antiquewhite;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: khaki;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family: YSerif;
+}
+
 img {
   height: 183px;
   width: 275px;
 }
 
-.imgcont {
-  position: relative;
-  width: 275px;
-  height: 183px;
+h1 {
+  font-family: "YSerif";
+  text-align: center;
 }
 
-.imgtxt {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
-  transform: translate(-50%, -50%);
+h2 {
+  font-family: "YSerif";
   text-align: center;
-  padding: 10px;
-  color: white;
-  top: 50%;
-  left: 50%;
+}
+
+h3 {
+  font-family: "YSerif";
+  text-align: center;
+}
+
+h4 {
+  font-family: "YSerif";
+  text-align: center;
+}
+
+nav {
+  background-color: goldenrod
+  width: 100%;
+  
 }
